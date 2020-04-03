@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CentralErros.Domain.Modelo
 {
-    class Erro
+    public class Erro
     {
         //Atributos do erro
     }

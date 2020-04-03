@@ -1,0 +1,8 @@
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\bin\Debug\netcoreapp3.1\CentralErros.Domain.deps.json
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\bin\Debug\netcoreapp3.1\CentralErros.Domain.dll
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\bin\Debug\netcoreapp3.1\CentralErros.Domain.pdb
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.csprojAssemblyReference.cache
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.AssemblyInfoInputs.cache
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.AssemblyInfo.cs
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.dll
+C:\Projetos\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.pdb

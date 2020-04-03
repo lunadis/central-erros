@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CentralErros.Domain.Repositorio
 {
-    class UsuarioRepositorio
+    public class UsuarioRepositorio
     {
         //Inteligência do Usuário
     }
