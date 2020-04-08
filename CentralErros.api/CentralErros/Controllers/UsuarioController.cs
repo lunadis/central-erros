@@ -10,13 +10,18 @@ namespace CentralErros.Controllers
     public class UsuarioController
     {
 
-        private static List<Usuario> Usuarios = new List<Usuario>();
+        private readonly UsuarioController _usuarios;
+
+        public UsuarioController()
+        {
+            _usuarios = new UsuarioController();
+        }
 
         [HttpGet]
         [Route("id:{id}")]
         public List<Usuario> PuxarUsuarios()
         {
-            return Usuarios;
+            return _Usuarios;
         }
 
         [HttpPost]
@@ -24,7 +29,7 @@ namespace CentralErros.Controllers
         [Route("CriarUsuarios")]
         public List<Usuario> CadastrarUsuarios()
         {
-            return Usuarios;
+            return _Usuarios;
         }
 
         [Route("Login")]
@@ -34,13 +39,13 @@ namespace CentralErros.Controllers
         [Route("EditarUsuarios")]
         public List<Usuario> EditarUsuarios()
         {
-            return Usuarios;
+            return _Usuarios;
         }
         [HttpDelete]
         [Route("DeletarUsuarios")]
         public List<Usuario> DeletarUsuarios()
         {
-            return Usuarios;
+            return _Usuarios;
          }
 
 

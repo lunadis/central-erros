@@ -11,7 +11,8 @@ namespace CentralErros.Controllers
     [ApiController]
     public class ErroController
     {
-        ErroController _erro;
+        private readonly ErroController _erro;
+
         public ErroController()
         {
             _erro = new ErroController();
