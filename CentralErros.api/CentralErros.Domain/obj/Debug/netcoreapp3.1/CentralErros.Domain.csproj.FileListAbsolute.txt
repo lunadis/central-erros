@@ -15,3 +15,11 @@ C:/Projetos/central-erros/CentralErros.api/CentralErros.Domain/obj/Debug/netcore
 /Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/obj/Debug/netcoreapp3.1/CentralErros.Domain.AssemblyInfo.cs
 /Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/obj/Debug/netcoreapp3.1/CentralErros.Domain.dll
 /Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/obj/Debug/netcoreapp3.1/CentralErros.Domain.pdb
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\bin\Debug\netcoreapp3.1\CentralErros.Domain.deps.json
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\bin\Debug\netcoreapp3.1\CentralErros.Domain.dll
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\bin\Debug\netcoreapp3.1\CentralErros.Domain.pdb
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.csproj.CoreCompileInputs.cache
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.AssemblyInfoInputs.cache
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.AssemblyInfo.cs
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.dll
+C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros.Domain\obj\Debug\netcoreapp3.1\CentralErros.Domain.pdb

@@ -40,7 +40,7 @@ namespace CentralErros.Controllers
         [Route("DeletarUsuarios")]
         public List<Usuario> DeletarUsuarios()
         {
-            return Usuarios
+            return Usuarios;
          }
 
 
