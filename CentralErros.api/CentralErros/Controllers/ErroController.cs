@@ -29,22 +29,22 @@ namespace CentralErros.Controllers
             return _erro.ListarTodos(value);
         }
 
-        [HttpPut]
-        [Route("{id}")]
+        [HttpGet]
+        [Route("api/erro/[controller]/{id}")]
         public List<Erro> Editar(int id, [FromBody] Erro value)
         {
             return _erro.EditarErro(id, value);
         }
 
         [HttpDelete]
-        [Route("{id}")]
+        [Route("api/erro/[controller]/{id}")]
         public List<Erro> Editar(int id)
         {
             return _erro.Deleter(id);
         }
 
         [HttpGet]
-        [Route("{id}")]
+        [Route("api/erro/[controller]/{id}")]
         public Erro Detalhar(int id)
         {
             return _erro.findById(id);

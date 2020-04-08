@@ -1,138 +1,31 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros/CentralErros.csproj": {}
+    "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj": {}
   },
   "projects": {
-    "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/CentralErros.Data.csproj": {
+    "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/CentralErros.Data.csproj",
-        "projectName": "CentralErros.Data",
-        "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/CentralErros.Data.csproj",
-        "packagesPath": "/Users/administrador/.nuget/packages/",
-        "outputPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/administrador/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj": {
-                "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
         "projectName": "CentralErros.Domain",
-        "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj",
-        "packagesPath": "/Users/administrador/.nuget/packages/",
-        "outputPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/obj/",
+        "projectPath": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+        "packagesPath": "C:\\Users\\m46u\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/administrador/.config/NuGet/NuGet.Config"
-=======
-    "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
-        "projectName": "CentralErros.Domain",
-        "projectPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
-        "packagesPath": "C:\\Users\\luis.lopes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\luis.lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
+          "C:\\Users\\m46u\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-<<<<<<< HEAD
-          "https://api.nuget.org/v3/index.json": {}
-=======
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/Gin5Packages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/NoqPackages/nuget/v3/index.json": {}
->>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -162,79 +55,38 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros/CentralErros.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros/CentralErros.csproj",
-        "projectName": "CentralErros",
-        "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros/CentralErros.csproj",
-        "packagesPath": "/Users/administrador/.nuget/packages/",
-        "outputPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/administrador/.config/NuGet/NuGet.Config"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
->>>>>>> 72823a37f6c2c2abffe88b61f1179b6a0361bd3c
         }
       }
     },
-    "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj": {
+    "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj",
+        "projectUniqueName": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj",
         "projectName": "CentralErros",
-        "projectPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj",
-        "packagesPath": "C:\\Users\\luis.lopes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros\\obj\\",
+        "projectPath": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros\\CentralErros.csproj",
+        "packagesPath": "C:\\Users\\m46u\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\luis.lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
+          "C:\\Users\\m46u\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-<<<<<<< HEAD
-          "https://api.nuget.org/v3/index.json": {}
-=======
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/Gin5Packages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/NoqPackages/nuget/v3/index.json": {}
->>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-<<<<<<< HEAD
-              "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/CentralErros.Data.csproj": {
-                "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/CentralErros.Data.csproj"
-              },
-              "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj": {
-                "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj"
-=======
-              "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
-                "projectPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj"
->>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
+              "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
+                "projectPath": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj"
               }
             }
           }
@@ -265,15 +117,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
->>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
->>>>>>> 72823a37f6c2c2abffe88b61f1179b6a0361bd3c
         }
       }
     }
