@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CentralErros.Domain\CentralErros.Domain.csproj" />
+    <ProjectReference Include="..\CentralErros.Data\CentralErros.Data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 
 

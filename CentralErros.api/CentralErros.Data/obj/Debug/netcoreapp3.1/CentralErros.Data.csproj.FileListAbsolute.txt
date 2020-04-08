@@ -1,0 +1,15 @@
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Data.deps.json
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Data.runtimeconfig.json
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Data.runtimeconfig.dev.json
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Data.dll
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Data.pdb
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Domain.dll
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/bin/Debug/netcoreapp3.1/CentralErros.Domain.pdb
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.csprojAssemblyReference.cache
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.csproj.CoreCompileInputs.cache
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.AssemblyInfoInputs.cache
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.AssemblyInfo.cs
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.csproj.CopyComplete
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.dll
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.pdb
+/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Data/obj/Debug/netcoreapp3.1/CentralErros.Data.genruntimeconfig.cache

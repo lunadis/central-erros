@@ -1,8 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "NM1j3KrDQkZruGAxQE+cd13z/XZZ3Dw9u404nfeq9hAzq3DxGI5ZxCcH2Pgo6MqkbT123Qx+LxzfsXnw2aOaJA==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "sKy4yLV/J+8Di65cir3Y2nBl4AIQnye8TTQ20t2eLxvsQmiZdPXiOmp1ZwI4gdV+s8oEh4xnP+b3Vjcfqbvrmw==",
+>>>>>>> 72823a37f6c2c2abffe88b61f1179b6a0361bd3c
   "success": true,
-  "projectFilePath": "C:\\Users\\m46u\\codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+  "projectFilePath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj",
+=======
+  "dgSpecHash": "fR9r0zP1KXy44O2sH3j2Qe8kgFYVAzdsJSeuUVgVnZD7OrvgfsxeWoK0pzYtXlVicUVVqg+2y6ig3k7c4J1ZCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+>>>>>>> e7717afa79e23688c023f8ee396f79af1989054b
   "expectedPackageFiles": [],
   "logs": []
 }
