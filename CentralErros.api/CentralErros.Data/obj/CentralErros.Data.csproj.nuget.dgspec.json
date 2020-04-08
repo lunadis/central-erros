@@ -1,41 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj": {}
+    "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj": {
+    "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj",
         "projectName": "CentralErros.Data",
-        "projectPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj",
-        "packagesPath": "C:\\Users\\luis.lopes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Data\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Data\\CentralErros.Data.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\luis.lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/Gin5Packages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/NoqPackages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
-                "projectPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj"
+              "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
+                "projectPath": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj"
               }
             }
           }
@@ -89,32 +85,28 @@
         }
       }
     },
-    "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
+    "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
         "projectName": "CentralErros.Domain",
-        "projectPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
-        "packagesPath": "C:\\Users\\luis.lopes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\luis.lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/Gin5Packages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/nextsoftbr/_packaging/NoqPackages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

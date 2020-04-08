@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fR9r0zP1KXy44O2sH3j2Qe8kgFYVAzdsJSeuUVgVnZD7OrvgfsxeWoK0pzYtXlVicUVVqg+2y6ig3k7c4J1ZCw==",
+  "dgSpecHash": "0/jvzwHqRqnU9TV58W15Sw/24CPs8MculeltBu2lBerVa9KmXnVLfeWee/Pu4Rpe8grlK/OLd2/or/Ea7BADfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis.lopes\\Codenation\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\Desktop\\Codenation\\Projeto-Final\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
