@@ -8,31 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Lopes\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/administrador/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
+      "projectUniqueName": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj",
       "projectName": "CentralErros.Domain",
-      "projectPath": "C:\\Projetos\\central-erros\\CentralErros.api\\CentralErros.Domain\\CentralErros.Domain.csproj",
-      "packagesPath": "C:\\Users\\Lopes\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\central-erros\\CentralErros.api\\CentralErros.Domain\\obj\\",
+      "projectPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/CentralErros.Domain.csproj",
+      "packagesPath": "/Users/administrador/.nuget/packages/",
+      "outputPath": "/Users/administrador/Project/central-erros/CentralErros.api/CentralErros.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/administrador/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
       }
     }
   }

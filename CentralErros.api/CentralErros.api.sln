@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralErros", "CentralErro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralErros.Domain", "CentralErros.Domain\CentralErros.Domain.csproj", "{921AEDA7-096F-48AD-847E-53440B9B6ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralErros.Data", "CentralErros.Data\CentralErros.Data.csproj", "{574AF3BA-4B85-4B7E-9BF1-7C64A92285A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{921AEDA7-096F-48AD-847E-53440B9B6ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921AEDA7-096F-48AD-847E-53440B9B6ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921AEDA7-096F-48AD-847E-53440B9B6ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574AF3BA-4B85-4B7E-9BF1-7C64A92285A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574AF3BA-4B85-4B7E-9BF1-7C64A92285A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574AF3BA-4B85-4B7E-9BF1-7C64A92285A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574AF3BA-4B85-4B7E-9BF1-7C64A92285A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
