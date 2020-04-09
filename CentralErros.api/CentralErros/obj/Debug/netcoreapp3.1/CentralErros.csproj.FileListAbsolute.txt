@@ -1,5 +1,0 @@
-C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros\obj\Debug\netcoreapp3.1\CentralErros.csprojAssemblyReference.cache
-C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros\obj\Debug\netcoreapp3.1\CentralErros.csproj.CoreCompileInputs.cache
-C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros\obj\Debug\netcoreapp3.1\CentralErros.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros\obj\Debug\netcoreapp3.1\CentralErros.AssemblyInfoInputs.cache
-C:\Users\luis.lopes\Codenation\central-erros\CentralErros.api\CentralErros\obj\Debug\netcoreapp3.1\CentralErros.AssemblyInfo.cs
