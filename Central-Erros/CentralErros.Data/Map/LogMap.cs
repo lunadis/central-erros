@@ -18,7 +18,8 @@ namespace CentralErros.Data.Map
                 .IsRequired();
 
             builder.Property(x => x.Data)
-                .HasColumnType("TINYINT");
+                .HasColumnType("datetime")
+                .IsRequired();
 
             builder.Property(i => i.Id)
                 .UseIdentityColumn();
