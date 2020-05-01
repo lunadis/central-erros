@@ -18,13 +18,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
   </ItemGroup>
 
-
   <ItemGroup>
-    <ProjectReference Include="..\CentralErros.Data\CentralErros.Data.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
-    <ProjectReference Include="..\CentralErros.Domain\CentralErros.Domain.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
+    <ProjectReference Include="..\CentralErros.Data\CentralErros.Data.csproj" />
   </ItemGroup>
 </Project>
