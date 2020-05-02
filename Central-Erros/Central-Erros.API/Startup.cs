@@ -1,3 +1,5 @@
+using AutoMapper;
+using CentralErros.Application.Mapper;
 using CentralErros.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,12 +22,8 @@ namespace Central_Erros.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddControllers();
-
-            //services.AddDbContext<Contexto>(options =>
-            //    options.UseSqlServer(Configuration.GetConnectionString("CentralErros")));
-
             services.AddControllers();
+            services.AddAutoMapper(typeof(AutoMapperConfig));
 
             services.AddDbContext<Contexto>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("CentralErros"))); 
