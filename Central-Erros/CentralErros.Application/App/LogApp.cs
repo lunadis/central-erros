@@ -23,14 +23,30 @@ namespace CentralErros.Application.App
             _repo.Alterar(_mapper.Map<Log>(entity));
         }
 
-        public void Deletar(int id)
+        public bool Deletar(int id)
         {
-            _repo.Deletar(id);
+            try
+            {
+                _repo.Deletar(id);
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
-        public void Incluir(LogViewModel entity)
+        public bool Incluir(LogViewModel entity)
         {
-            _repo.Incluir(_mapper.Map<Log>(entity));
+            try
+            {
+                _repo.Incluir(_mapper.Map<Log>(entity));
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
         public IEnumerable<LogViewModel> ListarTodos()

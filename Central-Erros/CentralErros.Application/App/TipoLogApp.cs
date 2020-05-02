@@ -24,14 +24,30 @@ namespace CentralErros.Application.App
             _repo.Alterar(_mapper.Map<TipoLog>(entity));
         }
 
-        public void Deletar(int id)
+        public bool Deletar(int id)
         {
-            _repo.Deletar(id);
+            try
+            {
+                _repo.Deletar(id);
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
-        public void Incluir(TipoLogViewModel entity)
+        public bool Incluir(TipoLogViewModel entity)
         {
-            _repo.Incluir(_mapper.Map<TipoLog>(entity));
+            try
+            {
+                _repo.Incluir(_mapper.Map<TipoLog>(entity));
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
         public IEnumerable<TipoLogViewModel> ListarTodos()

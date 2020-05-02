@@ -23,14 +23,30 @@ namespace CentralErros.Application.App
             _repo.Alterar(_mapper.Map<Usuario>(entity));
         }
 
-        public void Deletar(int id)
+        public bool Deletar(int id)
         {
-            _repo.Deletar(id);
+            try
+            {
+                _repo.Deletar(id);
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
-        public void Incluir(UsuarioViewModel entity)
+        public bool Incluir(UsuarioViewModel entity)
         {
-            _repo.Incluir(_mapper.Map<Usuario>(entity));
+            try
+            {
+                _repo.Incluir(_mapper.Map<Usuario>(entity));
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
         public IEnumerable<UsuarioViewModel> ListarTodos()

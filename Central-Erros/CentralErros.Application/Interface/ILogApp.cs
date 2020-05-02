@@ -5,10 +5,10 @@ namespace CentralErros.Application.Interface
 {
     public interface ILogApp
     {
-        void Incluir(LogViewModel entity);
+        bool Incluir(LogViewModel entity);
         void Alterar(LogViewModel entity);
         LogViewModel Selecionar(int id);
-        void Deletar(int id);
+        bool Deletar(int id);
         IEnumerable<LogViewModel> ListarTodos();
 
     }

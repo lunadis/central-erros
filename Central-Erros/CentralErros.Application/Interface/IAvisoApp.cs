@@ -4,10 +4,10 @@ using CentralErros.Application.ViewModel;
 namespace CentralErros.Application
 {
     public interface IAvisoApp {
-        void Incluir(AvisoViewModel entity);
+        bool Incluir(AvisoViewModel entity);
         void Alterar(AvisoViewModel entity);
         AvisoViewModel Selecionar(int id);
-        void Deletar(int id);
+        bool Deletar(int id);
         IEnumerable<AvisoViewModel> ListarTodos();
     }
 

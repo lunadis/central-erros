@@ -1,14 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 using CentralErros.Application.ViewModel;
 
 namespace CentralErros.Application.Interface
 {
     public interface IUsuarioAvisoApp
     {
-        void Incluir(UsuarioAvisoViewModel entity);
+        bool Incluir(UsuarioAvisoViewModel entity);
         void Alterar(UsuarioAvisoViewModel entity);
         UsuarioAvisoViewModel Selecionar(int id);
-        void Deletar(int id);
+        bool Deletar(int id);
         IEnumerable<UsuarioAvisoViewModel> ListarTodos();
+
     }
 }

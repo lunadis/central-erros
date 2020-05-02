@@ -5,10 +5,10 @@ namespace CentralErros.Application.Interface
 {
     public interface IUsuarioAplicacaoApp
     {
-        void Incluir(UsuarioAplicacaoViewModel entity);
+        bool Incluir(UsuarioAplicacaoViewModel entity);
         void Alterar(UsuarioAplicacaoViewModel entity);
         UsuarioAplicacaoViewModel Selecionar(int id);
-        void Deletar(int id);
+        bool Deletar(int id);
         IEnumerable<UsuarioAplicacaoViewModel> ListarTodos();
     }
 }

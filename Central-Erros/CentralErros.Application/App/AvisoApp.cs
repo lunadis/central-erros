@@ -22,14 +22,30 @@ namespace CentralErros.Application.App
             _repo.Alterar(_mapper.Map<Aviso>(entity));
         }
 
-        public void Deletar(int id)
+        public bool Deletar(int id)
         {
-            _repo.Deletar(id);
+            try
+            {
+                _repo.Deletar(id);
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
-        public void Incluir(AvisoViewModel entity)
+        public bool Incluir(AvisoViewModel entity)
         {
-            _repo.Incluir(_mapper.Map<Aviso>(entity));
+            try
+            {
+                _repo.Incluir(_mapper.Map<Aviso>(entity));
+                return true;
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
         }
 
         public IEnumerable<AvisoViewModel> ListarTodos()
