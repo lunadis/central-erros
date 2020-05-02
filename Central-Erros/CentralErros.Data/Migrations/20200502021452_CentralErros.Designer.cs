@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CentralErros.Data.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200501200712_initialDB")]
-    partial class initialDB
+    [Migration("20200502021452_CentralErros")]
+    partial class CentralErros
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

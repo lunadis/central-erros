@@ -25,9 +25,7 @@ namespace CentralErros.Data
 
         public Contexto(DbContextOptions<Contexto> options)
             : base(options)
-        {
-                
-        }
+        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

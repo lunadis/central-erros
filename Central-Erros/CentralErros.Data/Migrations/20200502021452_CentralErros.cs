@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CentralErros.Data.Migrations
 {
-    public partial class initialDB : Migration
+    public partial class CentralErros : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
