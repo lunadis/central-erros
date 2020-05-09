@@ -1,5 +1,10 @@
-# API - Central de Erros 
-## AceleraDev - Codenation em Parceria com @Itaú
+ 
+# AceleraDev - Codenation em Parceria com Itaú
+
+| <img src="https://user-images.githubusercontent.com/50468352/81487669-d30d2f00-9235-11ea-8d03-e05ecb096b5d.png" width="60 " height="60" /><p>Codenation</p> | <img src="https://user-images.githubusercontent.com/50468352/81487670-d43e5c00-9235-11ea-9971-5a993e8a2c69.png" width="60" height="60" /><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Itaú &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+| ----- | ----- |
+
+## API - Central de Erros
 ## squad-2-ad-csharp-itau-1 -> Junior ON{E}
 
 ### Índice
@@ -15,8 +20,9 @@
 
 ### Trabalho desenvolvido pela Squad:
 
-| <img title="Carlos Cordeiro" style="border-radius: 50%" src="https://media-exp1.licdn.com/dms/image/C4D03AQEzmOm2YXv9Rg/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=7FxPDtbo14ySmaoG7JwC_YxRV1Go5WUZzu5J6vkyKqA" alt="Carlos Cordeiro"  width="50" height="50"> [Carlos Cordeiro](https://www.linkedin.com/in/carloscordeiro96/) | <img title="Carlos Cunha" src="https://media-exp1.licdn.com/dms/image/C4D03AQGo9T2T7l2Zlw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=KvHcnlqoYVggcVDs3GT91bOhWYHMnPiGAgV_s-qV2Bk" alt="Carlos Cunha" width="50" height="50"> [Carlos Cunha](https://www.linkedin.com/in/carlos-eduardo-santana-88ti/) | <img title="Lucas Kauê" src="https://media-exp1.licdn.com/dms/image/C4E03AQGpCshHUY2Tfw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=e2eSJVcC96AAwr-ffqUXlsITWu8Tbh02sl8ToCsf8b0" loading="lazy" alt="Lucas Kauê" width="50" height="50"> [Lucas Kauê](https://www.linkedin.com/in/lucas-kau%C3%AA-359b21181/) | <img title="Lucas Moraes" src="https://media-exp1.licdn.com/dms/image/C4D03AQETiYQYsmzqrQ/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=InMAdt5V8jmv7MrdA5mgLNrN2A5zlEoXv9szOXRu81w" alt="Lucas Moraes" width="50" height="50"> [Lucas Moraes](https://www.linkedin.com/in/lucas-moraes-silva/) | <img title="Luis Augusto Lopes Silva" src="https://media-exp1.licdn.com/dms/image/C4D03AQHkclgVtAhfKA/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=nk0Eo2DfrOENnU_kt74SioG3hG5DGqe2sugvIXGbH_U" alt="Luis Augusto Lopes Silva"  width="50" height="50"> [Luis Lopes](https://www.linkedin.com/in/luislopessilva/) 
-| ---- | ---- | ---- | ----- | ----- |
+| <img title="Carlos Cordeiro" style="border-radius: 50%" src="https://media-exp1.licdn.com/dms/image/C4D03AQEzmOm2YXv9Rg/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=7FxPDtbo14ySmaoG7JwC_YxRV1Go5WUZzu5J6vkyKqA" alt="Carlos Cordeiro"  width="50" height="50"> <p style="align-self: center">[Carlos Cordeiro](https://www.linkedin.com/in/carloscordeiro96/)</p> | <img title="Carlos Cunha" src="https://media-exp1.licdn.com/dms/image/C4D03AQGo9T2T7l2Zlw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=KvHcnlqoYVggcVDs3GT91bOhWYHMnPiGAgV_s-qV2Bk" alt="Carlos Cunha" width="50" height="50"> <p style="align-self: center">[Carlos Cunha](https://www.linkedin.com/in/carlos-eduardo-santana-88ti/)</p> | <img title="Lucas Kauê" src="https://media-exp1.licdn.com/dms/image/C4E03AQGpCshHUY2Tfw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=e2eSJVcC96AAwr-ffqUXlsITWu8Tbh02sl8ToCsf8b0" loading="lazy" alt="Lucas Kauê" width="50" height="50"> <p style="align-self: center">[Lucas Kauê](https://www.linkedin.com/in/lucas-kau%C3%AA-359b21181/)</p> | <img title="Lucas Moraes" src="https://media-exp1.licdn.com/dms/image/C4D03AQETiYQYsmzqrQ/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=InMAdt5V8jmv7MrdA5mgLNrN2A5zlEoXv9szOXRu81w" alt="Lucas Moraes" width="50" height="50"> <p style="align-self: center">[Lucas Moraes](https://www.linkedin.com/in/lucas-moraes-silva/)</p> | <img title="Luis Augusto Lopes Silva" src="https://media-exp1.licdn.com/dms/image/C4D03AQHkclgVtAhfKA/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=nk0Eo2DfrOENnU_kt74SioG3hG5DGqe2sugvIXGbH_U" alt="Luis Augusto Lopes Silva"  width="50" height="50"><p style="align-self: center"> [Luis Lopes](https://www.linkedin.com/in/luislopessilva/)</p>
+| ----- | ----- | ---- | ----- | ----- |
+
 
 
 
