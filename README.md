@@ -1,4 +1,5 @@
-# API - Central de Erros @Codenation em Parceria com @Itaú
+# API - Central de Erros 
+## AceleraDev - Codenation em Parceria com @Itaú
 ## squad-2-ad-csharp-itau-1 -> Junior ON{E}
 
 ### Índice
@@ -14,15 +15,9 @@
 
 ### Trabalho desenvolvido pela Squad:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| <img title="Carlos Cordeiro" style="border-radius: 50%" src="https://media-exp1.licdn.com/dms/image/C4D03AQEzmOm2YXv9Rg/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=7FxPDtbo14ySmaoG7JwC_YxRV1Go5WUZzu5J6vkyKqA" alt="Carlos Cordeiro"  width="50" height="50"> [Carlos Cordeiro](https://www.linkedin.com/in/carloscordeiro96/) | <img title="Carlos Cunha" src="https://media-exp1.licdn.com/dms/image/C4D03AQGo9T2T7l2Zlw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=KvHcnlqoYVggcVDs3GT91bOhWYHMnPiGAgV_s-qV2Bk" alt="Carlos Cunha" width="50" height="50"> [Carlos Cunha](https://www.linkedin.com/in/carlos-eduardo-santana-88ti/) | <img title="Lucas Kauê" src="https://media-exp1.licdn.com/dms/image/C4E03AQGpCshHUY2Tfw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=e2eSJVcC96AAwr-ffqUXlsITWu8Tbh02sl8ToCsf8b0" loading="lazy" alt="Lucas Kauê" width="50" height="50"> [Lucas Kauê](https://www.linkedin.com/in/lucas-kau%C3%AA-359b21181/) | <img title="Lucas Moraes" src="https://media-exp1.licdn.com/dms/image/C4D03AQETiYQYsmzqrQ/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=InMAdt5V8jmv7MrdA5mgLNrN2A5zlEoXv9szOXRu81w" alt="Lucas Moraes" width="50" height="50"> [Lucas Moraes](https://www.linkedin.com/in/lucas-moraes-silva/) | <img title="Luis Augusto Lopes Silva" src="https://media-exp1.licdn.com/dms/image/C4D03AQHkclgVtAhfKA/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=nk0Eo2DfrOENnU_kt74SioG3hG5DGqe2sugvIXGbH_U" alt="Luis Augusto Lopes Silva"  width="50" height="50"> [Luis Lopes](https://www.linkedin.com/in/luislopessilva/) 
+| ---- | ---- | ---- | ----- | ----- |
 
-
-| <img title="Carlos Cordeiro" style="border-radius: 50%" src="https://media-exp1.licdn.com/dms/image/C4D03AQEzmOm2YXv9Rg/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=7FxPDtbo14ySmaoG7JwC_YxRV1Go5WUZzu5J6vkyKqA" alt="Carlos Cordeiro"  width="50" height="50"> - [Carlos Cordeiro](https://www.linkedin.com/in/carloscordeiro96/)
- <img title="Carlos Cunha" src="https://media-exp1.licdn.com/dms/image/C4D03AQGo9T2T7l2Zlw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=KvHcnlqoYVggcVDs3GT91bOhWYHMnPiGAgV_s-qV2Bk" alt="Carlos Cunha" width="50" height="50"> - [Carlos Cunha](https://www.linkedin.com/in/carlos-eduardo-santana-88ti/)
- <img title="Lucas Kauê" src="https://media-exp1.licdn.com/dms/image/C4E03AQGpCshHUY2Tfw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=e2eSJVcC96AAwr-ffqUXlsITWu8Tbh02sl8ToCsf8b0" loading="lazy" alt="Lucas Kauê" width="50" height="50"> - [Lucas Kauê](https://www.linkedin.com/in/lucas-kau%C3%AA-359b21181/) |
-
-<img title="Lucas Moraes" src="https://media-exp1.licdn.com/dms/image/C4D03AQETiYQYsmzqrQ/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=InMAdt5V8jmv7MrdA5mgLNrN2A5zlEoXv9szOXRu81w" alt="Lucas Moraes" width="50" height="50"> - [Lucas Moraes](https://www.linkedin.com/in/lucas-moraes-silva/)       <img title="Luis Augusto Lopes Silva" src="https://media-exp1.licdn.com/dms/image/C4D03AQHkclgVtAhfKA/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=nk0Eo2DfrOENnU_kt74SioG3hG5DGqe2sugvIXGbH_U" alt="Luis Augusto Lopes Silva"  width="50" height="50"> - [Luis Lopes](https://www.linkedin.com/in/luislopessilva/)
 
 
 ### Objetivo
@@ -32,8 +27,8 @@ Desta forma, surge a necessidade de centralizar os registros em um local onde se
 A arquitetura do projeto é formada por:
 
 ### Backend - API
-- criar endpoints para serem usados pelo frontend da aplicação
-- criar um endpoint que será usado para gravar os logs de erro em um banco de dados relacional
+ criar endpoints para serem usados pelo frontend da aplicação
+- criar um endpoint que será usado para gravar os logs de erro em um banco de dados relaciona
 - a API deve ser segura, permitindo acesso apenas com um token de autenticação válido
 #### Frontend
 - deve implementar as funcionalidades apresentadas nos wireframes
