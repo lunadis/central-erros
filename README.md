@@ -1,8 +1,7 @@
  
-# AceleraDev - Codenation em Parceria com Itaú
+# AceleraDev - Codenation em parceria com Itaú
 
-| <img src="https://user-images.githubusercontent.com/50468352/81487669-d30d2f00-9235-11ea-8d03-e05ecb096b5d.png" width="60 " height="60" /><p>Codenation</p> | <img src="https://user-images.githubusercontent.com/50468352/81487670-d43e5c00-9235-11ea-9971-5a993e8a2c69.png" width="60" height="60" /><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Itaú &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
-| ----- | ----- |
+<img src="https://user-images.githubusercontent.com/50468352/81487897-a1499780-9238-11ea-8239-22a62f4f14b8.png"  />
 
 ## API - Central de Erros
 ## squad-2-ad-csharp-itau-1 -> Junior ON{E}
