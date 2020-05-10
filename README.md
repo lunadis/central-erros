@@ -8,8 +8,13 @@
 <br/>
 
 <h2 align="center">Projeto API - Central de Erros</h2>
-<h4 align="center">squad-2-ad-csharp-itau-1 Junior ON{E}</h4>
-
+<h3 align="center">Junior ON{E}</h3>
+<h3 align="center">squad-2-ad-csharp-itau-1</h3>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ### Índice
 * [Objetivo](#objetivo)
