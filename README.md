@@ -7,9 +7,10 @@
 <br/>
 <br/>
 
-<h2>Projeto API - Central de Erros</h2>
-
-## squad-2-ad-csharp-itau-1 Junior ON{E}
+<H2 align="center">
+Projeto API - Central de Erros<br/>
+squad-2-ad-csharp-itau-1 Junior ON{E}
+</h2>
 
 ### Índice
 * [Objetivo](#objetivo)
