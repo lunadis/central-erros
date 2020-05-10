@@ -39,10 +39,11 @@ Desta forma, surge a necessidade de centralizar os registros em um local onde se
 A arquitetura do projeto é formada por:
 
 ### Backend - API
- criar endpoints para serem usados pelo frontend da aplicação
+- criar endpoints para serem usados pelo frontend da aplicação
 - criar um endpoint que será usado para gravar os logs de erro em um banco de dados relaciona
 - a API deve ser segura, permitindo acesso apenas com um token de autenticação válido
-#### Frontend
+
+### Frontend
 - deve implementar as funcionalidades apresentadas nos wireframes
 - deve ser acessada adequadamente tanto por navegadores desktop quanto mobile
 - deve consumir a API do produto
