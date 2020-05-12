@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Security.Claims;
@@ -33,7 +35,7 @@ namespace CentralErros.Test.Controllers
         }
 
         [Fact]
-        public async Task Incluir_Aplicacao_com_Sucesso()
+        public void Incluir_Aplicacao_com_Sucesso()
         {
             var context = _ContextoFake.GerarContexto("InlcuirAplicacao_Sucesso");
             context = ContextFakeSeeds.SeedAplicacao(context);
@@ -53,7 +55,7 @@ namespace CentralErros.Test.Controllers
         }
 
         [Fact]
-        public async Task Selecionar_Aplicacao_Com_Sucesso()
+        public void Selecionar_Aplicacao_Com_Sucesso()
         {
             var context = _ContextoFake.GerarContexto("InlcuirAplicacao_Sucesso");
             context = ContextFakeSeeds.SeedAplicacao(context);
@@ -72,7 +74,7 @@ namespace CentralErros.Test.Controllers
             Assert.IsType<AplicacaoSimplesViewModel>(res.Value);
         }
         [Fact]
-        public async Task Selecionar_Aplicacao_Com_No_Content()
+        public void Selecionar_Aplicacao_Com_Erro_No_Content()
         {
             var context = _ContextoFake.GerarContexto("InlcuirAplicacao_Sucesso");
             context = ContextFakeSeeds.SeedAplicacao(context);
@@ -88,7 +90,67 @@ namespace CentralErros.Test.Controllers
 
             Assert.IsType<ActionResult<AplicacaoSimplesViewModel>>(result);
             var res = Assert.IsType<NoContentResult>(result.Result);
-            Assert.Equal(res.StatusCode, 204);
+            Assert.Equal(204, res.StatusCode);
+        }
+
+        [Fact]
+        public void Selecionar_Todas_Aplicacao_Com_Sucesso()
+        {
+            var context = _ContextoFake.GerarContexto("InlcuirAplicacao_Sucesso");
+            context = ContextFakeSeeds.SeedAplicacao(context);
+
+            var repo = new AplicacaoRepositorio(context);
+            var services = new AplicacaoAplicacao(repo, _mapper);
+            var controller = new AplicacaoController(services);
+
+            controller.ControllerContext.HttpContext = new DefaultHttpContext();
+            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+
+            var result = controller.Get();
+
+            Assert.IsType<ActionResult<IEnumerable<AplicacaoSimplesViewModel>>>(result);
+            var res = Assert.IsType<OkObjectResult>(result.Result);
+            Assert.IsType<List<AplicacaoSimplesViewModel>>(res.Value);
+        }
+
+        [Fact]
+        public void Selecionar_Aplicacoes_Por_Nome_Com_Sucesso()
+        {
+            var context = _ContextoFake.GerarContexto("InlcuirAplicacao_Sucesso");
+            context = ContextFakeSeeds.SeedAplicacao(context);
+
+            var repo = new AplicacaoRepositorio(context);
+            var services = new AplicacaoAplicacao(repo, _mapper);
+            var controller = new AplicacaoController(services);
+
+            controller.ControllerContext.HttpContext = new DefaultHttpContext();
+            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+
+            var result = controller.GetAppNome("PDV");
+
+            Assert.IsType<ActionResult<IEnumerable<AplicacaoSimplesViewModel>>>(result);
+            var res = Assert.IsType<OkObjectResult>(result.Result);
+            Assert.IsType<List<AplicacaoSimplesViewModel>>(res.Value);
+        }
+
+        [Fact]
+        public void Selecionar_Aplicacoes_Por_Nome_Com_erro_No_Content()
+        {
+            var context = _ContextoFake.GerarContexto("InlcuirAplicacao_Sucesso");
+            context = ContextFakeSeeds.SeedAplicacao(context);
+
+            var repo = new AplicacaoRepositorio(context);
+            var services = new AplicacaoAplicacao(repo, _mapper);
+            var controller = new AplicacaoController(services);
+
+            controller.ControllerContext.HttpContext = new DefaultHttpContext();
+            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+
+            var result = controller.GetAppNome(null);
+
+            Assert.IsType<ActionResult<IEnumerable<AplicacaoSimplesViewModel>>>(result);
+            var res = Assert.IsType<NoContentResult>(result.Result);
+            Assert.Equal(204, res.StatusCode);
         }
 
 
@@ -101,10 +163,24 @@ namespace CentralErros.Test.Controllers
                             new List<Claim>()
                             {
                                 new Claim("id", Guid.NewGuid().ToString()),
-                                new Claim("role", "usuario")
+                                new Claim("Roles", "usuario")
                             }
                         )}
                     );
+        }
+        private ClaimsPrincipal GerarUsuarioAdminParaContexto()
+        {
+            return new ClaimsPrincipal(
+                     new List<ClaimsIdentity>()
+                     {
+                        new ClaimsIdentity(
+                            new List<Claim>()
+                            {
+                                new Claim("id", Guid.NewGuid().ToString()),
+                                new Claim("Roles", "usuario")
+                            }
+                        )}
+                     );
         }
     }
 }
