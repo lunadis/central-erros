@@ -35,8 +35,7 @@ namespace CentralErros.Application.App
         public AplicacaoSimplesViewModel Incluir(CadastroAplicacaoViewModel entity, string idUsuario)
         {
             return _mapper.Map<AplicacaoSimplesViewModel>(
-                _repo.Incluir(_mapper.Map<Aplicacao>(entity), idUsuario)
-                );
+                _repo.Incluir(_mapper.Map<Aplicacao>(entity), idUsuario));
         }
 
         public AplicacaoSimplesViewModel ObterAplicacaoId(int id)

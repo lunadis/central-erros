@@ -6,7 +6,6 @@ using CentralErros.Domain.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Configuration;
 
 namespace CentralErros.Infra.Ioc
 {
@@ -29,10 +28,10 @@ namespace CentralErros.Infra.Ioc
             services.AddScoped<ITipoLogAplicacao, TipoLogAplicacao>();
             services.AddScoped<IUsuarioAplicacaoAplicacao, UsuarioAplicacaoAplicacao>();
             services.AddScoped<IUsuarioAvisoAplicacao, UsuarioAvisoAplicacao>();
-            services.AddScoped<IUsuarioAplicacao, Application.App.UsuarioAplicacao>();
+            services.AddScoped<IUsuarioAplicacao, UsuarioAplicacao>();
 
             services.AddDbContext<Contexto>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("MinhaConexao")));
+                options.UseSqlServer(configuration.GetConnectionString("LuisDB")));
         }
     }
 }
