@@ -45,7 +45,9 @@ namespace CentralErros.Test.Controllers
             var controller = new AplicacaoController(services);
 
             controller.ControllerContext.HttpContext = new DefaultHttpContext();
-            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+            controller.ControllerContext
+                .HttpContext
+                .User = FakeUserClaims.GerarUsuarioPadraoParaContexto();
 
             var result = controller.Post(new CadastroAplicacaoViewModel() { Descricao = "Sistma de gestao de redes", Nome = "SGR" });
 
@@ -65,7 +67,9 @@ namespace CentralErros.Test.Controllers
             var controller = new AplicacaoController(services);
 
             controller.ControllerContext.HttpContext = new DefaultHttpContext();
-            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+            controller.ControllerContext
+                .HttpContext
+                .User = FakeUserClaims.GerarUsuarioPadraoParaContexto();
 
             var result = controller.GetAppId(1);
 
@@ -84,7 +88,9 @@ namespace CentralErros.Test.Controllers
             var controller = new AplicacaoController(services);
 
             controller.ControllerContext.HttpContext = new DefaultHttpContext();
-            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+            controller.ControllerContext
+                .HttpContext
+                .User = FakeUserClaims.GerarUsuarioPadraoParaContexto();
 
             var result = controller.GetAppId(null);
 
@@ -104,7 +110,9 @@ namespace CentralErros.Test.Controllers
             var controller = new AplicacaoController(services);
 
             controller.ControllerContext.HttpContext = new DefaultHttpContext();
-            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+            controller.ControllerContext
+                .HttpContext
+                .User = FakeUserClaims.GerarUsuarioPadraoParaContexto();
 
             var result = controller.Get();
 
@@ -124,7 +132,9 @@ namespace CentralErros.Test.Controllers
             var controller = new AplicacaoController(services);
 
             controller.ControllerContext.HttpContext = new DefaultHttpContext();
-            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+            controller.ControllerContext
+                      .HttpContext
+                      .User = FakeUserClaims.GerarUsuarioPadraoParaContexto();
 
             var result = controller.GetAppNome("PDV");
 
@@ -144,7 +154,9 @@ namespace CentralErros.Test.Controllers
             var controller = new AplicacaoController(services);
 
             controller.ControllerContext.HttpContext = new DefaultHttpContext();
-            controller.ControllerContext.HttpContext.User = GerarUsuarioPadraoParaContexto();
+            controller.ControllerContext
+                      .HttpContext
+                      .User = FakeUserClaims.GerarUsuarioPadraoParaContexto();
 
             var result = controller.GetAppNome(null);
 
@@ -154,33 +166,6 @@ namespace CentralErros.Test.Controllers
         }
 
 
-        private ClaimsPrincipal GerarUsuarioPadraoParaContexto()
-        {
-            return new ClaimsPrincipal(
-                    new List<ClaimsIdentity>()
-                    {
-                        new ClaimsIdentity(
-                            new List<Claim>()
-                            {
-                                new Claim("id", Guid.NewGuid().ToString()),
-                                new Claim("Roles", "usuario")
-                            }
-                        )}
-                    );
-        }
-        private ClaimsPrincipal GerarUsuarioAdminParaContexto()
-        {
-            return new ClaimsPrincipal(
-                     new List<ClaimsIdentity>()
-                     {
-                        new ClaimsIdentity(
-                            new List<Claim>()
-                            {
-                                new Claim("id", Guid.NewGuid().ToString()),
-                                new Claim("Roles", "usuario")
-                            }
-                        )}
-                     );
-        }
+       
     }
 }

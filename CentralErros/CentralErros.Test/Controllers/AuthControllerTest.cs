@@ -1,71 +1,44 @@
-﻿using CentralErros.Api.Controllers;
-using CentralErros.Application.Interface;
-using CentralErros.Application.ViewModel;
-using CentralErros.Application.ViewModel.Usuario;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Moq;
+﻿using AutoMapper;
+using CentralErros.Application.App;
+using CentralErros.Application.Mapper;
+using CentralErros.Data.Repositorio;
+using CentralErros.Domain.Modelo;
+using CentralErros.Test.Domain;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace CentralErros.Test.Controllers
 {
     public class AuthControllerTest
     {
-        private readonly Mock<IUsuarioAplicacao> _MockUsuario;
-        private readonly Mock<IOptions<Token>> _mockToken;
+        //private readonly IMapper _mapper;
+        //private readonly FakeContext _fakeContext;
+        //private readonly UserManager<Usuario> _userManager;
 
-        public AuthControllerTest()
-        {
-            _MockUsuario = new Mock<IUsuarioAplicacao>();
-        }
+        //public AuthControllerTest()
+        //{
+        //    _fakeContext = new FakeContext("AuthoController");
+        //    var configuration = new MapperConfiguration(cfg => {
+        //        cfg.AddProfile(new AutoMapperConfig());
+        //    });
 
-        [Fact]
-        public  void Registrar_usuario_com_Sucesso()
-        {
-            var controller = new AuthController(_MockUsuario.Object);
-            var usu = new RegistrarUsuarioViewModel() {
-                Nome = "Andre",
-                Email = "andre@gemail.com",
-                Senha = "862411Andre!@#$",
-                ConfirmarSenha = "862411Andre!@#$"
-            };
-            _MockUsuario.Setup(x => x.Registrar(usu))
-                .Returns(Task.FromResult(new AvisoLoginViewModel()));
+        //    _mapper = configuration.CreateMapper();
+        //    _userManager = new UserManager<Usuario>();
+        //}
 
-            var result = controller.Registrar(usu);
-            Assert.NotNull(result);
-            Assert.IsType<ActionResult<AvisoLoginViewModel>>(result);
-        }
-        [Fact]
-        public async Task Registrar_usuario_com_Erros()
-        {
-            var controller = new AuthController(_MockUsuario.Object);
-            var usu = new RegistrarUsuarioViewModel()
-            {
-                Nome = "Andre",
-                Email = "andre@gemail.com",
-                Senha = "862411",
-                ConfirmarSenha = "862411"
-            };
-            _MockUsuario.Setup(x => x.Registrar(usu))
-                .ReturnsAsync(getUsersViewModel());
+        //[Fact]
+        //public void Registrar_Usuario_com_Sucesso()
+        //{
+        //    var context = _fakeContext.GerarContexto("RegistrarUsuario_sucesso");
 
-            var res = controller.Registrar(usu);
-            Assert.Null(res.Value);
-            Assert.IsType<ActionResult<AvisoLoginViewModel>>(res);
-        }
+        //    var repo = new UsuarioRepositorio(context);
+        //    var services = new UsuarioAplicacao(repo, _mapper);
+        //}
 
-        private AvisoLoginViewModel getUsersViewModel()
-        {
-            return new AvisoLoginViewModel()
-            {
-                Descricao = "ErroAcontceu",
-                Token = null
-            };
-        }
+
+
     }
 }
