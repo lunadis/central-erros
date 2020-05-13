@@ -1,4 +1,5 @@
-﻿using CentralErros.Domain.Modelo;
+﻿using CentralErros.Domain.DTO;
+using CentralErros.Domain.Modelo;
 using System;
 using System.Collections.Generic;
 
@@ -8,6 +9,6 @@ namespace CentralErros.Domain.Repositorio
     {
         List<TipoLog> ObterTodosTipoLogs();
         TipoLog ObterTipoLogId(int id);
-        Object OcorrenciasTipoLog();
+        List<OcorrenciaTipoLogDTO> OcorrenciasTipoLog();
     }
 }

@@ -47,10 +47,9 @@ namespace CentralErros.Application.App
             return _mapper.Map<List<TipoLogViewModel>>(_repo.ObterTodosTipoLogs());
         }
 
-        public Object OcorrenciasTipoLog()
+        public List<OcorrenciaTipoLogViewModel> OcorrenciasTipoLog()
         {
-            //_mapper.Map<List<OcorrenciaTipoLogViewModel>>(_repo.OcorrenciasTipoLog());
-            return _repo.OcorrenciasTipoLog();
+            return _mapper.Map<List<OcorrenciaTipoLogViewModel>>(_repo.OcorrenciasTipoLog());
         }
     }
 }

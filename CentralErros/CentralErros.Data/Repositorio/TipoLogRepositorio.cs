@@ -1,4 +1,5 @@
-﻿using CentralErros.Domain.Modelo;
+﻿using CentralErros.Domain.DTO;
+using CentralErros.Domain.Modelo;
 using CentralErros.Domain.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -30,7 +31,7 @@ namespace CentralErros.Data.Repositorio
             return tipoLog.AsNoTracking().ToList();
         }
 
-        public Object OcorrenciasTipoLog()
+        public List<OcorrenciaTipoLogDTO> OcorrenciasTipoLog()
         {
             var query = _contexto.Log
                             .GroupBy(x => x.IdTipoLog)
@@ -38,7 +39,12 @@ namespace CentralErros.Data.Repositorio
 
             var dados = (from qry in query
                          join tl in _contexto.TipoLog on qry.IdTipoLog equals tl.Id
-                         select new { qry.IdTipoLog, tl.Descricao, qry.QtdeOcorrencia }).ToList();
+                         select new OcorrenciaTipoLogDTO
+                         {
+                             IdTipoLog = qry.IdTipoLog,
+                             Descricao = tl.Descricao,
+                             QtdeOcorrencia = qry.QtdeOcorrencia
+                         }).ToList();
 
             return dados;
         }

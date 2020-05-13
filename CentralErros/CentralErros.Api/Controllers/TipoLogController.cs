@@ -34,7 +34,7 @@ namespace CentralErros.Api.Controllers
         }
 
         [HttpGet("Ocorrencias")]
-        public Object GetOcorrenciasTipoLog()
+        public List<OcorrenciaTipoLogViewModel> GetOcorrenciasTipoLog()
         {
             return _repo.OcorrenciasTipoLog();
         }

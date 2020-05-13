@@ -29,7 +29,7 @@ namespace CentralErros.Api.Controllers
         }
 
         [HttpPost("logar")]
-        public ActionResult<string> Logar([FromBody] LogarUsuarioViewModel usuario)
+        public ActionResult<AvisoLoginViewModel> Logar([FromBody] LogarUsuarioViewModel usuario)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState.Values.SelectMany(e => e.Errors));

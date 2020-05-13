@@ -11,7 +11,7 @@ namespace CentralErros.Application.Interface
         TipoLogViewModel Alterar(AlteraTipoLogViewModel entity);
         List<TipoLogViewModel> ObterTodosTipoLogs();
         TipoLogViewModel ObterTipoLogId(int id);
-        Object OcorrenciasTipoLog();
+        List<OcorrenciaTipoLogViewModel> OcorrenciasTipoLog();
         void Excluir(int id);
     }
 }
