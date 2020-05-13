@@ -40,10 +40,17 @@
 * [Apresentação](#slides)
 * [Agradecimentos](#agradecimentos)
 
+<br/>
+<br/>
+<br/>
 
 ### Objetivo
 Em projetos modernos baseados em serviços ou micro serviços, ambientes complexos e erros podem surgir em diferentes camadas, serviços ou aplicações. 
 Desta forma, surge a necessidade de centralizar os registros em um local onde seja fácil monitorar.
+
+<br/>
+<br/>
+<br/>
 
 A arquitetura do projeto é formada por:
 
@@ -52,11 +59,19 @@ A arquitetura do projeto é formada por:
 - criar um endpoint que será usado para gravar os logs de erro em um banco de dados relaciona
 - a API deve ser segura, permitindo acesso apenas com um token de autenticação válido
 
+<br/>
+<br/>
+<br/>
+
 ### Frontend
 - deve implementar as funcionalidades apresentadas nos wireframes
 - deve ser acessada adequadamente tanto por navegadores desktop quanto mobile
 - deve consumir a API do produto
 - desenvolvida na forma de uma Single Page Application
+
+<br/>
+<br/>
+<br/>
 
 ### Tecnologias Utilizadas
 - C# .NET
@@ -64,14 +79,26 @@ A arquitetura do projeto é formada por:
 - Clean Code 
 - Swagger
 
+<br/>
+<br/>
+<br/>
+
 ### Ferramentas Utilizadas 
 - Visual Studio
 - Trello
 - WhatsApp
 - Azure 
 
+<br/>
+<br/>
+<br/>
+
 ### Banco de dados
 - SQLServer criado através do Azure.
+
+<br/>
+<br/>
+<br/>
 
 ### Deploy da Aplicação
 O deploy da aplicação foi elaborado através do Microsoft Azure.
@@ -84,6 +111,9 @@ O deploy da aplicação foi elaborado através do Microsoft Azure.
 Slides utilizados na apresentação:
 * [Slides](https://github.com/lunadis/central-erros/files/4625145/Junior.on.e.pdf)
 
+<br/>
+<br/>
+<br/>
 
 ### Agradecimentos
 | <a href="https://www.linkedin.com/in/thamirys-gameiro-5535a520/" target="_blank"><img title="Thamirys Gameiro" src="https://media-exp1.licdn.com/dms/image/C4E03AQGXLLYOh-s-_Q/profile-displayphoto-shrink_200_200/0?e=1594857600&amp;v=beta&amp;t=NiqY9z0a4x3qvtLG6syepS1Cj7SDzhgwnIhqbt2Su5c" alt="Thamirys Gameiro" width="50" height="50"> <p style="align-self: center">Thamirys Gameiro</p></a> | <a href="https://www.linkedin.com/in/niltonnakate/" target="_blank"><img title="Nilton Nakate" src="https://media-exp1.licdn.com/dms/image/C4E03AQH3dvlaF3_0EQ/profile-displayphoto-shrink_200_200/0?e=1594857600&amp;v=beta&amp;t=W4oidz5dsTcdakeQpdmb5rS9HHrYfec3eYSr3UI8yF0" loading="lazy" alt="Nilton Nakate" width="50" height="50"> <p style="align-self: center">Nilton Nakate</p> 
