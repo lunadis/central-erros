@@ -21,10 +21,8 @@
 * [Tecnologias e Ferramentas Utilizadas](#tecnologias-utilizadas)
 * [Banco de Dados](#banco-de-dados)
 * [Deploy da Aplicação](#deploy-da-aplicação)
-* [Demonstração da Aplicação](#demonstração)
+* [Demonstração da Aplicação](#demonstração-da-Aplicação)
 * [Apresentação](#slides)
-* [Rotas](#rotas)
-* [FrontEnd](#front-end)
 * [Agradecimentos](#agradecimentos)
 
 
@@ -71,19 +69,17 @@ A arquitetura do projeto é formada por:
 - SQLServer criado através do Azure.
 
 ### Deploy da Aplicação
-O deploy da aplicação foi feito através do Heroku, utilizando o Docker Image.
-* [API]()
+O deploy da aplicação foi elaborado através do Microsoft Azure.
+* [API](http://centralerroscodenation.azurewebsites.net/swagger/index.html)
 
 ### Demonstração da Aplicação
 * [VIDEO]()
 
 ### Slides
 Slides utilizados na apresentação:
-* [Slides]
+* [Slides](https://github.com/lunadis/central-erros/files/4625057/apresentacao.pdf)
 
-
-### Rotas
-
-### Front-End
 
 ### Agradecimentos
+| <a href="https://www.linkedin.com/in/thamirys-gameiro-5535a520/" target="_blank"><img title="Thamirys Gameiro" src="https://media-exp1.licdn.com/dms/image/C4E03AQGXLLYOh-s-_Q/profile-displayphoto-shrink_200_200/0?e=1594857600&amp;v=beta&amp;t=NiqY9z0a4x3qvtLG6syepS1Cj7SDzhgwnIhqbt2Su5c" alt="Thamirys Gameiro" width="50" height="50"> <p style="align-self: center">Thamirys Gameiro</p></a> | <a href="https://www.linkedin.com/in/niltonnakate/" target="_blank"><img title="Nilton Nakate" src="https://media-exp1.licdn.com/dms/image/C4E03AQH3dvlaF3_0EQ/profile-displayphoto-shrink_200_200/0?e=1594857600&amp;v=beta&amp;t=W4oidz5dsTcdakeQpdmb5rS9HHrYfec3eYSr3UI8yF0" loading="lazy" alt="Nilton Nakate" width="50" height="50"> <p style="align-self: center">Nilton Nakate</p> 
+| ----- | ----- |
