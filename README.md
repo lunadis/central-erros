@@ -16,6 +16,21 @@
 <br/>
 <br/>
 
+
+### Trabalho desenvolvido pelo Squad
+
+| <a href="https://www.linkedin.com/in/carloscordeiro96/" target="_blank"><img title="Carlos Cordeiro" style="border-radius: 50%" src="https://media-exp1.licdn.com/dms/image/C4D03AQEzmOm2YXv9Rg/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=7FxPDtbo14ySmaoG7JwC_YxRV1Go5WUZzu5J6vkyKqA" alt="Carlos Cordeiro"  width="50" height="50"> <p style="align-self: center">Carlos Cordeiro</p></a> | <a href="https://www.linkedin.com/in/carlos-eduardo-santana-88ti/" target="_blank"><img title="Carlos Cunha" src="https://media-exp1.licdn.com/dms/image/C4D03AQGo9T2T7l2Zlw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=KvHcnlqoYVggcVDs3GT91bOhWYHMnPiGAgV_s-qV2Bk" alt="Carlos Cunha" width="50" height="50"> <p style="align-self: center">Carlos Cunha</p> | <a href="https://www.linkedin.com/in/lucas-kau%C3%AA-359b21181/" target="_blank"><img title="Lucas Kauê" src="https://media-exp1.licdn.com/dms/image/C4E03AQGpCshHUY2Tfw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=e2eSJVcC96AAwr-ffqUXlsITWu8Tbh02sl8ToCsf8b0" loading="lazy" alt="Lucas Kauê" width="50" height="50"> <p style="align-self: center">Lucas Kauê</p></a> | <a href="https://www.linkedin.com/in/lucas-moraes-silva/" target="_blank"><img title="Lucas Moraes" src="https://media-exp1.licdn.com/dms/image/C4D03AQETiYQYsmzqrQ/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=InMAdt5V8jmv7MrdA5mgLNrN2A5zlEoXv9szOXRu81w" alt="Lucas Moraes" width="50" height="50"> <p style="align-self: center">Lucas Moraes</p></a> | <a href="https://www.linkedin.com/in/luislopessilva/" target="_blank"><img title="Luis Augusto Lopes Silva" src="https://media-exp1.licdn.com/dms/image/C4D03AQHkclgVtAhfKA/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=nk0Eo2DfrOENnU_kt74SioG3hG5DGqe2sugvIXGbH_U" alt="Luis Augusto Lopes Silva"  width="50" height="50"><p style="align-self: center"> Luis Lopes</p></a>
+| ----- | ----- | ---- | -----| ----- 
+  
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
 ### Índice
 * [Objetivo](#objetivo)
 * [Tecnologias e Ferramentas Utilizadas](#tecnologias-utilizadas)
@@ -24,14 +39,6 @@
 * [Demonstração da Aplicação](#demonstração-da-Aplicação)
 * [Apresentação](#slides)
 * [Agradecimentos](#agradecimentos)
-
-
-
-### Trabalho desenvolvido pelo Squad:
-
-| <a href="https://www.linkedin.com/in/carloscordeiro96/" target="_blank"><img title="Carlos Cordeiro" style="border-radius: 50%" src="https://media-exp1.licdn.com/dms/image/C4D03AQEzmOm2YXv9Rg/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=7FxPDtbo14ySmaoG7JwC_YxRV1Go5WUZzu5J6vkyKqA" alt="Carlos Cordeiro"  width="50" height="50"> <p style="align-self: center">Carlos Cordeiro</p></a> | <a href="https://www.linkedin.com/in/carlos-eduardo-santana-88ti/" target="_blank"><img title="Carlos Cunha" src="https://media-exp1.licdn.com/dms/image/C4D03AQGo9T2T7l2Zlw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=KvHcnlqoYVggcVDs3GT91bOhWYHMnPiGAgV_s-qV2Bk" alt="Carlos Cunha" width="50" height="50"> <p style="align-self: center">Carlos Cunha</p> | <a href="https://www.linkedin.com/in/lucas-kau%C3%AA-359b21181/" target="_blank"><img title="Lucas Kauê" src="https://media-exp1.licdn.com/dms/image/C4E03AQGpCshHUY2Tfw/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=e2eSJVcC96AAwr-ffqUXlsITWu8Tbh02sl8ToCsf8b0" loading="lazy" alt="Lucas Kauê" width="50" height="50"> <p style="align-self: center">Lucas Kauê</p></a> | <a href="https://www.linkedin.com/in/lucas-moraes-silva/" target="_blank"><img title="Lucas Moraes" src="https://media-exp1.licdn.com/dms/image/C4D03AQETiYQYsmzqrQ/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=InMAdt5V8jmv7MrdA5mgLNrN2A5zlEoXv9szOXRu81w" alt="Lucas Moraes" width="50" height="50"> <p style="align-self: center">Lucas Moraes</p></a> | <a href="https://www.linkedin.com/in/luislopessilva/" target="_blank"><img title="Luis Augusto Lopes Silva" src="https://media-exp1.licdn.com/dms/image/C4D03AQHkclgVtAhfKA/profile-displayphoto-shrink_200_200/0?e=1594252800&amp;v=beta&amp;t=nk0Eo2DfrOENnU_kt74SioG3hG5DGqe2sugvIXGbH_U" alt="Luis Augusto Lopes Silva"  width="50" height="50"><p style="align-self: center"> Luis Lopes</p></a>
-| ----- | ----- | ---- | -----| -----
-
 
 
 ### Objetivo
@@ -62,8 +69,6 @@ A arquitetura do projeto é formada por:
 - Trello
 - WhatsApp
 - Azure 
-- Heroku
-- Docker
 
 ### Banco de dados
 - SQLServer criado através do Azure.
@@ -77,7 +82,7 @@ O deploy da aplicação foi elaborado através do Microsoft Azure.
 
 ### Slides
 Slides utilizados na apresentação:
-* [Slides](https://github.com/lunadis/central-erros/files/4625057/apresentacao.pdf)
+* [Slides](https://github.com/lunadis/central-erros/files/4625145/Junior.on.e.pdf)
 
 
 ### Agradecimentos
