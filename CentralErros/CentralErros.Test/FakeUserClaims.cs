@@ -16,7 +16,7 @@ namespace CentralErros.Test
                             new List<Claim>()
                             {
                                 new Claim("id", Guid.NewGuid().ToString()),
-                                new Claim("Roles", "usuario")
+                                new Claim("Roles", "usuario") //usuario ou user?
                             }
                         )}
                     );
@@ -30,7 +30,7 @@ namespace CentralErros.Test
                             new List<Claim>()
                             {
                                 new Claim("id", Guid.NewGuid().ToString()),
-                                new Claim("Roles", "usuario")
+                                new Claim("Roles", "usuario") //problemas aqui?
                             }
                         )}
                      );

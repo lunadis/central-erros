@@ -77,6 +77,7 @@ namespace CentralErros.Test.Controllers
             var res = Assert.IsType<OkObjectResult>(result.Result);
             Assert.IsType<AplicacaoSimplesViewModel>(res.Value);
         }
+
         [Fact]
         public void Selecionar_Aplicacao_Com_Erro_No_Content()
         {

@@ -21,31 +21,31 @@ namespace CentralErros.Api.Controllers
 
         // GET: api/TipoLog
         [HttpGet]
-        public IEnumerable<TipoLogViewModel> Get()
+        public ActionResult<IEnumerable<TipoLogViewModel>> Get()
         {
-            return _repo.ObterTodosTipoLogs();
+            return Ok(_repo.ObterTodosTipoLogs());
         }
 
         // GET: api/TipoLog/5
         [HttpGet("{id}")]
-        public TipoLogViewModel Get(int id)
+        public ActionResult<TipoLogViewModel> Get(int id)
         {
-            return _repo.ObterTipoLogId(id);
+            return Ok(_repo.ObterTipoLogId(id));
         }
 
         [HttpGet("Ocorrencias")]
-        public List<OcorrenciaTipoLogViewModel> GetOcorrenciasTipoLog()
+        public ActionResult<List<OcorrenciaTipoLogViewModel>> GetOcorrenciasTipoLog()
         {
-            return _repo.OcorrenciasTipoLog();
+            return Ok(_repo.OcorrenciasTipoLog());
         }
 
         // POST: api/TipoLog
         [Authorize(Roles = "admin")]
         [HttpPost]
-        public TipoLogViewModel Post([FromBody] CadastroTipoLogViewModel tipoLog)
+        public ActionResult<TipoLogViewModel> Post([FromBody] CadastroTipoLogViewModel tipoLog)
         {
             var tipoLogViewModel = _repo.Incluir(tipoLog);
-            return tipoLogViewModel;
+            return Ok(tipoLogViewModel);
         }
 
         // PUT: api/TipoLog/5
@@ -54,16 +54,16 @@ namespace CentralErros.Api.Controllers
         public ActionResult<TipoLogViewModel> Put([FromBody] AlteraTipoLogViewModel tipoLog)
         {
             var tipoLogViewModel = _repo.Alterar(tipoLog);
-            return tipoLogViewModel;
+            return Ok(tipoLogViewModel);
         }
 
         // DELETE: api/ApiWithActions/5
         [Authorize(Roles = "admin")]
         [HttpDelete("{id}")]
-        public List<TipoLogViewModel> Delete(int id)
+        public ActionResult<List<TipoLogViewModel>> Delete(int id)
         {
             _repo.Excluir(id);
-            return _repo.ObterTodosTipoLogs();
+            return Ok(_repo.ObterTodosTipoLogs());
         }
     }
 }
