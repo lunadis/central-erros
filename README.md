@@ -109,7 +109,7 @@ O deploy da aplicação foi elaborado através do Microsoft Azure.
 
 ### Slides
 Slides utilizados na apresentação:
-* [Slides](https://github.com/lunadis/central-erros/files/4625145/Junior.on.e.pdf)
+* [Slides](https://github.com/lunadis/central-erros/files/4625383/Junior.on.e.pdf)
 
 <br/>
 <br/>
