@@ -105,7 +105,7 @@ O deploy da aplicação foi elaborado através do Microsoft Azure.
 * [API](http://centralerroscodenation.azurewebsites.net/swagger/index.html)
 
 ### Demonstração da Aplicação
-* [VIDEO]()
+* [Video](https://www.youtube.com/watch?v=EAD9No2q7WM&feature=youtu.be)
 
 ### Slides
 Slides utilizados na apresentação:
